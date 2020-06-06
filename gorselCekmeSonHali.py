@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup as bs
 import csv
 #Öncelikle bu iki modülü kuruyoruz
-
+#github kontrol
 while True:
 #Programın bizim isteğimizle kapanıp açılması için while döngüsü kuruyoruz
 
