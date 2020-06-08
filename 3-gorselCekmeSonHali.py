@@ -14,7 +14,7 @@ while True:
 # request.get ile kullanıcıdan
 #alınan url nin html dosyasını çağırıyoruz
     soup = bs(r.content, 'html.parser')
-#bu kod ile düzzenli hale getiriyoruz
+#bu kod ile düzenli hale getiriyoruz
 #html dosyası içerisinde "img" classını arıyoruz#
     liste = []
     for photo in soup.find_all("img"):
